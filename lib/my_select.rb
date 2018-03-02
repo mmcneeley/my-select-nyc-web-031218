@@ -6,7 +6,7 @@ def my_select(collection)
       array << yield(collection[i]) is true
       i += 1
     end
-    array 
+    array
   else
     "No Block Given"
   end
